@@ -1,0 +1,304 @@
+/* General Styles */
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    background:#111;
+    color:white;
+}
+
+/* Header centered at top */
+header {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff; /* White color */
+    margin: 0;
+}
+
+/* Course Overview Section */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px 40px;
+}
+
+.course-overview h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.course-overview p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+}
+
+/* Cards Container */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.card {
+    background: #1a0a2c;
+    border-radius: 15px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(180, 0, 255, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+    margin: 10px 0;
+    color: #ffccff;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 0.95rem;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(180,0,255,1), 0 0 50px rgba(154,0,230,0.8);
+}
+
+/* What You'll Learn Card (Centered, No Image) */
+.learn-card{
+    width:90%;
+    max-width:800px;
+    background:linear-gradient(135deg, #4b2de1, #9b4dff);
+    border-radius:20px;
+    padding:40px;
+    color:white;
+    margin: 0 auto 60px auto;
+    text-align:center;
+}
+
+.learn-card h2{
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+.learn-card ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.learn-card ul li{
+    margin-bottom:12px;
+    font-size:16px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
+
+.checkmark{
+    width:18px;
+    height:18px;
+    background:#8cf5ff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#4b2de1;
+    font-size:12px;
+    font-weight:bold;
+}
+
+/* Why Choose Section */
+.section{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:60px 0;
+    text-align:center;
+    background: linear-gradient(135deg, #0d0b33, #1a1448);
+}
+
+.section h2{
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.section p{
+    color:#bfbfe8;
+    margin-bottom:50px;
+    font-size:16px;
+}
+
+.why-cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap:25px;
+}
+
+.why-card{
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius:18px;
+    padding:25px;
+    text-align:left;
+    backdrop-filter: blur(5px);
+    transition: 0.3s;
+}
+
+.why-card:hover{
+    transform: translateY(-5px);
+    border-color: rgba(255,255,255,0.20);
+}
+
+.icon-box{
+    width:45px;
+    height:45px;
+    background: linear-gradient(135deg, #9b4dff, #6a34e4);
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    margin-bottom:18px;
+}
+
+.why-card h3{
+    font-size:18px;
+    margin-bottom:8px;
+}
+
+.why-card p{
+    color:#c9c9e8;
+    font-size:14px;
+    line-height:1.5;
+    margin:0;
+}
+
+/* CTA Section */
+.cta-section{
+    width:90%;
+    max-width:1200px;
+    background: linear-gradient(90deg, #3b1ecf, #d81a7d);
+    border-radius:25px;
+    padding:60px 40px;
+    color:white;
+    text-align:center;
+    margin:60px auto;
+}
+
+.cta-section h1{
+    font-size:40px;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.cta-section p.sub-text{
+    color:#e0e0ff;
+    margin-bottom:40px;
+    font-size:17px;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:40px;
+    margin-bottom:40px;
+}
+
+.feature-item{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:16px;
+}
+
+.feature-icon{
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    border:2px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:13px;
+}
+
+.btn-wrap{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-bottom:25px;
+}
+
+.btn-primary{
+    background:white;
+    color:#3b1ecf;
+    padding:12px 28px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-primary:hover{
+    opacity:0.85;
+}
+
+.btn-outline{
+    background:transparent;
+    color:white;
+    padding:12px 28px;
+    border:2px solid white;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-outline:hover{
+    background:white;
+    color:#d81a7d;
+}
+
+.offer-text{
+    margin-top:10px;
+    font-size:14px;
+    color:#ffe2f3;
+}
+
+/* Footer */
+footer{
+    background:#1a0a2c;
+    color:#ccc;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+}
+
+/* Responsive */
+@media(max-width:900px){
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
