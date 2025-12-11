@@ -1,8 +1,7 @@
-# prodigy_wd_01
-https://sangamitraparamesh.github.io/prodigy_wd_01/
-# Prodigy Infotech — Landing Page
+# landing page
+https://sangamitraparamesh.github.io/landingpage/
 
-A clean, responsive landing page for **Prodigy Infotech**, designed and built by me during my Web Developer internship.  
+A clean, responsive landing page for **Prodigy Infotech(a imaginary company)**, designed and built by me.
 This page showcases the program’s course offerings, benefits, and enrollment call-to-action.
 
 ---
